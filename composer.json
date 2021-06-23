@@ -20,7 +20,7 @@
     "minimum-stability": "dev",
     "extra": {
         "laravel":{
-            "provides":[
+            "providers":[
                 "Khapu\\LaravelCurd\\Providers\\CurdServiceProvider"
             ],
             "aliases":{
