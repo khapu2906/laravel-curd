@@ -1,0 +1,30 @@
+{
+    "name": "khapu/laravel-curd",
+    "description": "This package is created to read, update, create and delete the data",
+    "type": "library",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Khapu\\LaravelCurd\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "phung dai khanh",
+            "email": "daikhanh9260@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel":{
+            "provides":[
+                "Khapu\\LaravelCurd\\Providers\\CurdServiceProvider"
+            ],
+            "aliases":{
+                
+            }
+        }
+    }
+}
