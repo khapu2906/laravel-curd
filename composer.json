@@ -2,6 +2,7 @@
     "name": "khapu/laravel-curd",
     "description": "This package is created to read, update, create and delete the data",
     "type": "library",
+    "license": "MIT",
     "require": {
     },
     "autoload": {
