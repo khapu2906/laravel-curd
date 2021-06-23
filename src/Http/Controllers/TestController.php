@@ -9,6 +9,6 @@ class TestController extends Controller
 {
     public function index(){
         
-        return view('Khapu::test');
+        return view('Khapu::index');
     }
 }
