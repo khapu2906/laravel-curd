@@ -1,7 +1,7 @@
 <?php
 
 $namespaceController =  'Khapu\LaravelCurd\Http\Controllers';
-Route::group(['prefix'=>'/','namespace'=>$namespaceController],function(){
-    Route::get('test','TestController@index')->name('test');
+Route::group(['prefix'=>'/khapu','namespace'=>$namespaceController],function(){
+    Route::get('','TestController@index')->name('khapu.index');
 });
 
