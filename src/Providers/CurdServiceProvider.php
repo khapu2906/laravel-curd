@@ -23,7 +23,7 @@ class CurdServiceProvider extends ServiceProvider
         $moduleName = 'Khapu';
         $this->loadRoutesFrom($modulePath."/routes/package.php");
         $this->loadViewsFrom($modulePath.'resources/views',$moduleName);
-        //$this->loadMigrationsFrom($modulePath.'/database/migrations');
+        $this->loadMigrationsFrom($modulePath.'/database/migrations');
         
         //
     }
