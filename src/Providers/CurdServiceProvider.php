@@ -18,6 +18,7 @@ class CurdServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        dd('hello');
         $modulePath = __DIR__.'/../../';
         $moduleName = 'Khapu';
         $this->loadRoutesFrom($modulePath."/routes/package.php");
